@@ -11,8 +11,6 @@ $(window).on("load", function () {
   project_ani.to(".myname", { y: "0%", duration: 1.2, stagger: 0.2 });
   loading_intro.to("#loading", { y: "-100%", duration: 1.5 });
 
-
-
   function resizing() {
     if ($windowWidth <= 1000) {
       $('script[src="js/native.smooth.scroll.umd.js"]').remove();
@@ -126,26 +124,47 @@ $(window).on("load", function () {
     }
     if (scrollPercent >= 11 && scrollPercent <= 19) {
       $(".third_content").css("display", "block");
-      $(".third_content h4").text("YEAR 2022");
-      $(".third_content  h3 span").text("GawanKe");
+      $(".third_content h4").text("YEAR 2024");
+      $(".third_content  h3 span").text("Mvp Onboarding");
       $(".third_content p span").text(
-        "GawanKe is a web app that I create for our thesis project, partner with PESO Santa Rita Pampanga, this web app. helps the bluecollar-workers and also the community of Santa Rita Pampanga by giving home service. This web app was created using HTML, CSS, JavaScript, Ajax, jQuery, Php Php and MariaDb."
+        "Introducing Mvp Onboarding: a web app designed to streamline the onboarding process. It sends email notifications to welcome new employees, automatically creates accounts for the company ERP, and offers user management features for assigning roles. Created using C#, ASP.NET, Microsoft SQL Server, React.js, and Tailwind."
       );
+      $(".third_content a").text("");
 
       $(".third_content h2").text("</> DEVELOPED");
 
-      $(".third_content span a").text("Gawanke.com →");
-      $(".third_content a ").attr("href", "https://gawanke.com");
-      $(".third_content a").attr("target", "_blank");
       project_false();
     } else if (scrollPercent <= 11) {
       $(".third_content").css("display", "none");
-    } else if (scrollPercent >= 25 && scrollPercent <= 33) {
-      $(".third_content h4").text("YEAR 2021");
-      $(".third_content h3 span").text("Cemetery Map");
+    } else if (scrollPercent >= 20 && scrollPercent <= 30) {
+      $(".third_content h4").text("YEAR 2023");
+      $(".third_content h3 span").text("Kasina Redesign");
       $(".third_content p span").text(
         "Cemetery Map is an offline map for cemetery to locate the specific location of grave, I created this project for our major subject during 3rd year college, This app. was created using Visual Basic and MariaDb."
       );
+      $(".third_content h2").text("/ DESIGN");
+
+      project_true();
+    } else if (scrollPercent >= 31 && scrollPercent <= 40) {
+      $(".third_content h4").text("YEAR 2022");
+      $(".third_content h3 span").text("GawanKe");
+      $(".third_content p span").text(
+        "Introducing GawanKe: the web app I created for our thesis project, in partnership with PESO Santa Rita, Pampanga. Designed to assist blue-collar workers and the local community by offering home services. Built with HTML, CSS, JavaScript, Ajax, jQuery, PHP, and MariaDB, it's a comprehensive solution to fulfill community needs."
+      );
+      $(".third_content h2").text("</> DEVELOPED");
+
+      $(".third_content a ").text("Gawanke.com →");
+      $(".third_content a ").attr("href", "https://www.gawanke.com");
+      $(".third_content a").attr("target", "_blank");
+      project_false();
+    } else if (scrollPercent >= 41 && scrollPercent <= 52) {
+      $(".third_content h4").text("YEAR 2021");
+      $(".third_content h3 span").text("Cemetery Map");
+      $(".third_content p span").text(
+        "Introducing Cemetery Map: your go-to offline map for locating graves in cemeteries! I developed this project during my third year of college for a major subject. The app, created using Visual Basic and MariaDB, makes finding specific grave locations a breeze."
+      );
+      $(".third_content h2").text("</> DEVELOPED");
+
       $(".third_content a ").text("Vide Demo →");
       $(".third_content a ").attr(
         "href",
@@ -153,7 +172,7 @@ $(window).on("load", function () {
       );
       $(".third_content a").attr("target", "_blank");
       project_true();
-    } else if (scrollPercent >= 40 && scrollPercent <= 46) {
+    } else if (scrollPercent >= 53 && scrollPercent <= 63) {
       $(".third_content").css("display", "block");
       $(".third_content h4").text("YEAR 2020");
       $(".third_content h3 span").text("Library");
@@ -168,7 +187,7 @@ $(window).on("load", function () {
       $(".third_content h2").text("</> DEVELOPED");
       $(".third_content a").attr("target", "_blank");
       project_false();
-    } else if (scrollPercent >= 53 && scrollPercent <= 60) {
+    } else if (scrollPercent >= 64 && scrollPercent <= 74) {
       $(".third_content h4").text("YEAR 2018");
       $(".third_content h3 span").text("100 IceCream");
       $(".third_content p span").text(
@@ -182,7 +201,7 @@ $(window).on("load", function () {
       );
       $(".third_content a").attr("target", "_blank");
       project_true();
-    } else if (scrollPercent >= 66 && scrollPercent <= 73) {
+    } else if (scrollPercent >= 75 && scrollPercent <= 86) {
       $(".third_content h4").text("YEAR 2018");
       $(".third_content h3 span").text("SalveoWorld");
       $(".third_content p span").text(
@@ -196,7 +215,7 @@ $(window).on("load", function () {
       );
       $(".third_content a").attr("target", "_blank");
       project_false();
-    } else if (scrollPercent >= 80 && scrollPercent <= 89) {
+    } else if (scrollPercent >= 87 && scrollPercent <= 94) {
       $(".navigation").css("pointer-events", "auto");
       $(".navigation").css("display", "block");
       setTimeout(function () {
