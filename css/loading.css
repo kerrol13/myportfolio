@@ -1,0 +1,63 @@
+.dot-flashing {
+  margin-top: clamp(5px, 0.7vw, 0.7vw);
+  position: relative;
+  width: clamp(5px, 0.2vw, 0.2vw);
+  height: clamp(5px, 0.2vw, 0.2vw);
+  background-color: #222222;
+  color: #202020;
+  animation: dot-flashing 1s infinite linear alternate;
+  animation-delay: 0.5s;
+}
+.dot-flashing::before,
+.dot-flashing::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+.dot-flashing::before {
+  left: -15px;
+  width: clamp(5px, 0.2vw, 0.2vw);
+  height: clamp(5px, 0.2vw, 0.2vw);
+  background-color: #6b6b6b;
+  color: #6d6d6d;
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 0s;
+}
+.dot-flashing::after {
+  left: 15px;
+  width: clamp(5px, 0.2vw, 0.2vw);
+  height: clamp(5px, 0.2vw, 0.2vw);
+  background-color: #969696;
+  color: #ffffff;
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 1s;
+}
+#loading {
+  display: flex;
+  position: fixed;
+  z-index: 99999999999;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+.dot_loading span {
+  font-size: clamp(25px, 4vw, 1vw);
+  margin-right: clamp(25px, 4vw, 1vw);
+}
+.dot_loading {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+@keyframes dot-flashing {
+  0% {
+    background-color: #242424;
+  }
+  50%,
+  100% {
+    background-color: rgba(185, 185, 185, 0.2);
+  }
+}

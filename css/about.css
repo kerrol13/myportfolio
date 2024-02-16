@@ -1,0 +1,383 @@
+.accent_text_about {
+  position: absolute;
+  top: -2vh;
+  margin-left: -55vw;
+  white-space: nowrap;
+  opacity: 0.07;
+  font-weight: 400;
+  font-size: clamp(200px, 18vw, 20vw);
+}
+
+.web_dev_about {
+  position: relative;
+  margin-top: clamp(0vh, 2vh, -80vh);
+  display: grid;
+  grid-template-columns: 50% 45%;
+}
+
+.about_me_info_content {
+  margin-top: 0;
+}
+.box h5 {
+  display: none;
+}
+.content_about h1 {
+  display: block;
+}
+.content_about {
+  position: relative;
+  margin: 7vw 40px 0 40px;
+}
+
+.about_me_info_content h1 span {
+  font-weight: 400;
+  font-size: clamp(45px, 8.5vw, 8.5vw);
+}
+.content_about h4 {
+  margin-top: -3vw;
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 65px;
+  font-size: clamp(22px, 3vw, 75px);
+  opacity: 0.3;
+}
+.content_about p,
+.about_me_grid_content p {
+  width: 20px;
+  font-weight: 700;
+  line-height: clamp(30px, 4vh, 4vh);
+}
+.content_about .about_me_content {
+  font-weight: 400;
+  width: 80vw;
+}
+.about_me_grid_content {
+  display: grid;
+  grid-template-columns: clamp(100px, 7vw, 7vw) 1fr;
+}
+.box {
+  border-top: 0;
+  border-left: 0;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  z-index: 1;
+}
+
+.box img {
+  height: clamp(550px, 35vw, 33vw);
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.second_content,
+.about_third_content,
+.about_fourth_content {
+  display: grid;
+  grid-template-columns: 17vw 1fr;
+  margin: 10vw 40px 5vw 40px;
+}
+.educ_twogrid {
+  margin-top: 10vw;
+  display: grid;
+  grid-template-columns: clamp(90px, 7vw, 7vw) 1fr;
+}
+.cirle {
+  margin: 1vw;
+  border-radius: 50%;
+  width: clamp(60px, 5vw, 5vw);
+  height: clamp(60px, 5vw, 5vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(16px, 9vw, 0.9vw);
+  color: white;
+  background-color: #191919;
+}
+.circle_info,
+.awards_info p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.awards {
+  margin-top: -2vw;
+}
+
+.awards h1 {
+  margin: 0;
+  font-size: clamp(18px, 2vw, 0.9vw);
+}
+.career_info p {
+  margin-top: -0.1vw;
+}
+.line_down {
+  z-index: -1;
+  margin-top: clamp(350px, 20vw, 20vw);
+  position: absolute;
+  height: clamp(350px, 15vw, 20vw);
+  width: clamp(5px, 0.5vw, 0.3vw);
+  background-color: #191919;
+}
+.line_down2 {
+  z-index: -1;
+  margin-top: clamp(-410px, -60vw, -60vw);
+  position: absolute;
+  height: clamp(350px, 11.1vw, 11.1vw);
+  width: clamp(5px, 0.5vw, 0.3vw);
+  background-color: #191919;
+}
+
+.horizontal_line {
+  margin-top: 3vw;
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  display: flex;
+}
+.content_about h3 span,
+.second_content h3 span,
+.about_third_content h3 span,
+.about_fourth_content h3 span {
+  font-weight: 400;
+  font-size: clamp(32px, 3vw, 3vw);
+}
+.my_skills {
+  margin-top: 4vw;
+  position: relative;
+  display: grid;
+  grid-template-columns: 32vw 27vw;
+}
+.skills_content {
+  margin-bottom: clamp(50px, 5.5vw, 5.5vw);
+  display: grid;
+  grid-template-columns: 4.5vw 30vw;
+}
+.skills_content img {
+  width: clamp(30px, 2.5vw, 2.5vw);
+}
+.skills_content h1 {
+  line-height: clamp(20px, 1.8vw, 1.8vw);
+  margin: 0;
+  font-weight: 600;
+  font-size: clamp(16px, 1.1vw, 1.1vw);
+}
+.percent {
+  z-index: 1;
+  position: absolute;
+  width: 20vw;
+  height: clamp(5px, 0.2vw, 0.2vw);
+  background-color: #191919;
+}
+.percent_background {
+  position: absolute;
+  width: 23vw;
+  height: clamp(5px, 0.2vw, 0.2vw);
+  background-color: #d8d8d8;
+}
+
+.career_info {
+  display: grid;
+  grid-template-columns: 25vw;
+}
+.career_info a {
+  word-wrap: break-word;
+  margin-top: 0.5vw;
+  text-underline-offset: 5px;
+}
+.current_learning {
+  width: 29vw;
+}
+
+.myname_3,
+.myname_4,
+.myname_5,
+.myname_7 {
+  height: clamp(10px, 5.5vw, 5.5vw);
+  transform: translateY(150%);
+  display: inline-block;
+}
+.about_me_info_content h1,
+.about_me_info_content h3,
+.second_content h3,
+.about_third_content h3,
+.about_fourth_content h3 {
+  margin: 0;
+  overflow: hidden;
+  background-color: white;
+}
+.second_content h3 {
+  height: 4vw;
+  margin-bottom: 5vw;
+}
+.about_third_content h3 span,
+.about_fourth_content h3 span {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1050px) {
+  .second_content,
+  .about_third_content,
+  .about_fourth_content {
+    grid-template-columns: 23vw 1fr;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .social_link span {
+    display: none;
+  }
+  .social_link {
+    display: flex;
+  }
+  .social_link i {
+    margin: 0 1vw 0 1vw;
+    font-size: clamp(18px, 3.2vw, 3.2vw);
+  }
+  .footer_social h1 {
+    font-weight: 500;
+    margin-top: 6vh;
+    font-size: clamp(30px, 5vw, 5vw);
+  }
+  .footer_social {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-start: 2;
+    height: 40vh;
+    margin: 0 5.2vw 0 5.1vw;
+  }
+
+  p,
+  b,
+  span {
+    font-size: clamp(15px, 2vw, 0.7vw);
+  }
+  .navigation {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    margin-right: 40px;
+    width: clamp(28px, 1.2vw, 1.2vw);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .navigation {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    margin-right: 40px;
+    width: clamp(28px, 1.2vw, 1.2vw);
+  }
+  .second_content h3 {
+    height: 8vw;
+  }
+  .about_third_content h3,
+  .about_fourth_content h3 {
+    height: 5.5vw;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .box {
+    position: relative;
+    height: 70vw;
+  }
+  .box img {
+    height: clamp(250px, 70vw, 70vw);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  .box h5 {
+    display: block;
+    font-weight: 400;
+    position: relative;
+    top: 70%;
+    font-size: clamp(50px, 15vw, 120px);
+  }
+  .content_about h1 {
+    display: none;
+  }
+  .about_me_info_content {
+    margin-top: 10vw;
+  }
+  .content_about h3 span,
+  .second_content h3 span,
+  .about_third_content h3 span,
+  .about_fourth_content h3 span {
+    font-size: clamp(16px, 6.5vw, 6.5vw);
+    white-space: nowrap;
+  }
+
+  .second_content,
+  .about_third_content,
+  .about_fourth_content {
+    grid-template-columns: 1fr;
+  }
+  .my_skills {
+    grid-template-columns: 1fr;
+  }
+  .cirle {
+    width: clamp(60px, 15vw, 15vw);
+    height: clamp(60px, 15vw, 15vw);
+  }
+  .educ_twogrid {
+    margin-top: 4vw;
+    display: grid;
+    grid-template-columns: clamp(50px, 22vw, 150px) 1fr;
+  }
+  .circle_info,
+  .awards_info p,
+  .career_info p {
+    font-size: clamp(15px, 2vw, 0.7vw);
+  }
+  .awards_info p {
+    display: block;
+  }
+  .skills_content {
+    grid-template-columns: 15vw 50vw;
+  }
+  .skills_content img {
+    width: clamp(40px, 8vw, 8vw);
+  }
+  .skills_content h1 {
+    line-height: clamp(20px, 5vw, 5vw);
+    font-size: clamp(16px, 3vw, 3vw);
+  }
+  .percent {
+    width: 40vw;
+    height: clamp(5px, 1vw, 1vw);
+  }
+  .percent_background {
+    width: 55vw;
+    height: clamp(5px, 1vw, 1vw);
+  }
+  .current_learning {
+    width: 70vw;
+  }
+
+  .career_info {
+    display: grid;
+    grid-template-columns: 47vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .about_me_grid_content {
+    grid-template-columns: 25vw 1fr;
+  }
+  .line_down2 {
+    margin-top: clamp(-550px, -185vw, -185vw);
+    height: clamp(550px, 20vw, 20vw);
+  }
+  .line_down {
+    margin-top: clamp(650px, 50vw, 50vw);
+    height: clamp(650px, 50vw, 50vw);
+  }
+}
