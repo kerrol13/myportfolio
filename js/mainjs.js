@@ -140,7 +140,7 @@ $(window).on("load", function () {
       $(".third_content h4").text("YEAR 2023");
       $(".third_content h3 span").text("Kasina Redesign");
       $(".third_content p span").text(
-        "Cemetery Map is an offline map for cemetery to locate the specific location of grave, I created this project for our major subject during 3rd year college, This app. was created using Visual Basic and MariaDb."
+        "I revamped the company's current ERP system design using Adobe XD, giving it a simple and fresh new look."
       );
       $(".third_content h2").text("/ DESIGN");
 
@@ -177,7 +177,7 @@ $(window).on("load", function () {
       $(".third_content h4").text("YEAR 2020");
       $(".third_content h3 span").text("Library");
       $(".third_content p span").text(
-        "Library Management System is an offline Management System for Library to encode the student who borrowed books, I created this project for our major subject during 2nd year college, This app. was created using Python and MariaDb, i used Tkinter for GUI."
+        "Introducing the Library Management System: your offline solution for efficiently managing library operations! Developed during my second year of college for a major subject, this app simplifies the process of encoding student book borrowings. Built using Python and MariaDB, with Tkinter for the user-friendly GUI."
       );
       $(".third_content a").text("Vide Demo →");
       $(".third_content a").attr(
@@ -191,7 +191,7 @@ $(window).on("load", function () {
       $(".third_content h4").text("YEAR 2018");
       $(".third_content h3 span").text("100 IceCream");
       $(".third_content p span").text(
-        "I challenge my self to create an ice cream Website to enhance my skills, This web design was created using Photoshop, im not aware that Adobe XD is more efficient when designing websites."
+        "I set out to challenge myself by creating an ice cream website to improve my skills. Little did I know, while designing it with Photoshop, that Adobe XD would've made the process even smoother. But hey, every challenge is a chance to learn and grow, right? "
       );
       $(".third_content h2").text("/ DESIGN");
       $(".third_content a").text("View Design →");
@@ -205,7 +205,7 @@ $(window).on("load", function () {
       $(".third_content h4").text("YEAR 2018");
       $(".third_content h3 span").text("SalveoWorld");
       $(".third_content p span").text(
-        "I challenge my self to ReDesign our Company Website to enhance my skills, This web design was created using Photoshop."
+        "I took on the challenge of redesigning our company website to level up my skills. Using Photoshop, I crafted a fresh new look for our online presence."
       );
       $(".third_content h2").text("/ DESIGN");
       $(".third_content a").text("View Design →");
@@ -228,7 +228,7 @@ $(window).on("load", function () {
       $(".third_content h4").text("YEAR 2018");
       $(".third_content h3 span").text("Shirt Design");
       $(".third_content p span").text(
-        "These are my freelance design shirt, My previous company shirt design and other design are not included. I love creating simple design not over-decorated, simple looks more premium."
+        "T-shirt - Check out my freelance shirt designs! They're all about simplicity and elegance—no fuss, just premium vibes. While I haven't included designs from my previous company, these ones showcase my passion for clean and stylish aesthetics."
       );
       $(".third_content h2").text("/ DESIGN");
       $(".third_content a").text("View Design →");
